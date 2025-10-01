@@ -1,1 +1,2 @@
-Hello Github, this is my first repository.
+This is feature 1
+This is feature 2

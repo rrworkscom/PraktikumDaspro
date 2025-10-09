@@ -14,7 +14,13 @@ public class ifPrintKRS20 {
         System.out.println("UKT payment has been verified");
         System.out.println("KRS now can be printed and you can ask the academic advisor to sign it.");
       } else {
-        
+        System.out.println("Registration rejected. Please pay the UKT first");
+
+        System.out.println("\n--- Using Ternary Operator ---");
+        String result = uktLunas ? 
+            "UKT payment verified\nPlease print KRS and ask for academic advisor to sign it" : 
+            "Registration rejected. Please pay the UKT first";
+        System.out.println(result);
       }
     }
   }

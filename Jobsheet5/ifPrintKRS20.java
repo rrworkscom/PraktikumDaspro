@@ -13,6 +13,8 @@ public class ifPrintKRS20 {
       if(uktLunas) {
         System.out.println("UKT payment has been verified");
         System.out.println("KRS now can be printed and you can ask the academic advisor to sign it.");
+      } else {
+        
       }
     }
   }
